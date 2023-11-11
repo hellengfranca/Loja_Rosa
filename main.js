@@ -54,7 +54,7 @@ for(const produtoCatalogo of catalogo){
     const cartaoProduto = `<div class=" border-solid border-2 border-sky-300 flex flex-col justify-between
      w-48 m-5" id="card-produto-${produtoCatalogo.id}">
 <img 
-    src="assets/${produtoCatalogo.nomeArquivoImagem}" 
+    src="/assets/${produtoCatalogo.nomeArquivoImagem}" 
     alt="vestido rosa"
     style="height: 300px"
 />
